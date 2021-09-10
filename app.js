@@ -31,3 +31,18 @@ const Parar = () =>{
     clearInterval(tmp);
     document.getElementById("iniciar").innerHTML="Retornar";
 }
+
+const Reset = () =>{
+
+    minuto = 0;
+    segundo = 0;
+    segundo = 0;
+    clearInterval(tmp);
+    document.getElementById("iniciar").innerHTML="Iniciar";
+    relogio.innerHTML = "00:00:00";
+
+}
+
+function ChamaFuncoes(){
+    tmp = setInterval(Iniciar,100)
+}
