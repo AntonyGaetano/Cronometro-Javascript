@@ -5,11 +5,18 @@ var hora = 0;
 
 
 const Iniciar = () =>{
-
+    var seg;
+    var min;
+    var hrs;
     
 if(segundo == 60){
     segundo = 0;
     minuto++;   
+}
+
+else if(minuto == 60){
+    minuto = 0;
+    hora++;
 }
 
 (segundo < 10)? seg = "0"+segundo: seg = segundo;
