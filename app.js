@@ -26,3 +26,8 @@ else if(minuto == 60){
 relogio.innerHTML = hrs+":"+min+":"+seg;
 segundo++;
 }
+
+const Parar = () =>{
+    clearInterval(tmp);
+    document.getElementById("iniciar").innerHTML="Retornar";
+}
