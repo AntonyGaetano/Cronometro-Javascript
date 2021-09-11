@@ -1,0 +1,33 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+#cronometro{
+    color:White;
+}
+
+#box{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#box > div, #box > h2{
+  margin-bottom: 1rem;
+  color:white;
+}
+
+.butoes > button{
+ gap:10px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border:1px solid white;
+}

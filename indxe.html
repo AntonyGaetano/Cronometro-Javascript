@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="cronometro">00:00:00</div>
 
-    <button onclick="ChamaFuncoes()" id="iniciar">Iniciar</button> 
-    <button onclick="Pausar()" >Pausar</button>
-    <button onclick="Reset()">Resetar</button>
+    <section id="box">
+     <h2>Cronômetro Feito Com JavaScript</h2>
+     <div id="cronometro">00:00:00</div>
+    
+     <div class="butoes">
+      <button onclick="ChamaFuncoes()" id="iniciar" >Iniciar</button> 
+      <button onclick="Pausar()" >Pausar</button>
+      <button onclick="Reset()">Resetar</button>
+    </div>
+    </section>
 
     <script src="/app.js"></script>
 </body>
