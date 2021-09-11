@@ -16,13 +16,24 @@ body{
     text-align: center;
 }
 
-#box > div, #box > h2{
-  margin-bottom: 1rem;
-  color:white;
+#box > div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    margin:2rem 0;
+    color:white;
 }
 
-.butoes > button{
+#box > h2{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-bottom: 1rem;
+color:white;
+}
+
+.butoes{
  gap:10px;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
 }
 
 button{
@@ -31,4 +42,22 @@ button{
     background-color: transparent;
     border:1px solid white;
     color:white;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+button:hover{
+    background-color: white;
+    color:coral;
+    font-weight: bold;
+}
+
+h4{
+margin-top: 80%;
+margin-left: auto;
+margin-right: auto;
+font-size: 13px;
+font-family:'Times New Roman', Times, serif;
+color:white;
 }
