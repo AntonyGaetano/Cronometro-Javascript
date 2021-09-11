@@ -8,7 +8,7 @@ const Iniciar = () =>{
 
 if(seg == 60){
     seg = 0;
-    minuto++;  
+    min++;  
     
     if(min == 60){
         min = 0;
@@ -21,7 +21,7 @@ var format =  (hrs < 10? "0"+ hrs : hrs)+":"+(min < 10? "0"+ min : min) + ":" + 
    
 
 relogio.innerHTML = format;
-segundo++;
+seg++;
 }
 
 const Parar = () =>{
@@ -31,9 +31,9 @@ const Parar = () =>{
 
 const Reset = () =>{
     clearInterval(tmp);
-    minuto = 0;
-    segundo = 0;
-    segundo = 0;
+    min = 0;
+    seg = 0;
+    hrs = 0;
    
     document.getElementById("iniciar").innerHTML="Iniciar";
     relogio.innerHTML = "00:00:00";
