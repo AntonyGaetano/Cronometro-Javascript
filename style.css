@@ -2,9 +2,9 @@
 
 body{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    background-color: coral;
+    background-color: rgb(63, 247, 57);
 }
 
 #cronometro{
@@ -25,8 +25,14 @@ body{
 
 #box > h2{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 2rem;
 margin-bottom: 1rem;
 color:white;
+transition: 1s all;
+}
+
+#box > h2:hover{
+    color:coral;
 }
 
 .butoes{
@@ -51,6 +57,7 @@ button:hover{
     background-color: white;
     color:coral;
     font-weight: bold;
+    cursor: pointer;
 }
 
 h4{
@@ -60,4 +67,9 @@ margin-right: auto;
 font-size: 13px;
 font-family:'Times New Roman', Times, serif;
 color:white;
+}
+
+.box-img > img{
+    width: 400px;
+    height: 300px;
 }
