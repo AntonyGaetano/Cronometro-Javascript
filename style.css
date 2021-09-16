@@ -4,11 +4,11 @@ body{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    background-color: rgb(63, 247, 57);
+    background-color: #00FF7F;
 }
 
 #cronometro{
-    color:White;
+    color:black;
 }
 
 #box{
@@ -20,14 +20,14 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     margin:2rem 0;
-    color:white;
+    color:black;
 }
 
 #box > h2{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 2rem;
 margin-bottom: 1rem;
-color:white;
+color:black;
 transition: 1s all;
 }
 
@@ -46,8 +46,8 @@ button{
     width: 80px;
     height: 40px;
     background-color: transparent;
-    border:1px solid white;
-    color:white;
+    border:1px solid black;
+    color:black;
     transition: 0.4s;
     border-radius: 10px;
     margin: 1rem 0;
@@ -60,13 +60,13 @@ button:hover{
     cursor: pointer;
 }
 
-h4{
+h3{
 margin-top: 80%;
 margin-left: auto;
 margin-right: auto;
 font-size: 13px;
 font-family:'Times New Roman', Times, serif;
-color:white;
+color:black
 }
 
 .box-img > img{
